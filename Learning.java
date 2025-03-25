@@ -19,7 +19,9 @@ public class Learning {
         if (age >= 18) {
             System.out.println("You are eligible for driving licence");
             limit = 1;
-        } else {
+        } 
+        
+        else {
             System.out.println("You are NOT eligible for driving licence");
             limit = 0;
         }
